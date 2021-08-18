@@ -27,4 +27,17 @@ def get_raster_terrain(bounds:str,region:str,access_data_path:str=access_data_pa
 
     pipeline=pdal.Pipeline(json.dumps(the_json))
 
+    try:
+        pipe_exec=pipeline.execute()
+        metadata=pipeline.metadata
+
+    except RuntimeError as e:
+        print(e)
+        print('Runtime Error, writing 0s and moving to the next bounds')  
+        pass
+
+
+    if __name__ =='__main__' :
+        get_raster_terrain(bounds=bounds,region=region) 
+
 
