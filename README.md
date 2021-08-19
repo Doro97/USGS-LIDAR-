@@ -2,10 +2,10 @@
 
 The objective of this project is to measure elevation of a field at many different points in order to provide a better understanding to AgriTech on how water flows through a field and which parts are likely to be flooded or too dry
 
-<<<<<<< HEAD
+
 This project aims at producing an easy to use, reliable and well designed python module that domain experts and data scientists can use to fetch, visualise, and transform publicly available satellite and LIDAR data.The code interfaces with USGS 3DEP and fetch data using their API. 
 
-=======
+
 This project aims at producing an easy to use, reliable and well designed python module that domain experts and data scientists can use to fetch, visualise, and transform publicly available satellite and LIDAR data.The code interfaces with USGS 3DEP and fetches data using their API. 
 
 The python package code has been adapted from https://pdal.io/tutorial/iowa-entwine.html
@@ -34,4 +34,4 @@ Classification [:]=0 and assigns the Classification for each point to 0.
 ## Executing the pipeline
 1. Save the PDAL pipeline in Pipeline to a file called iowa.json
 2. Invoke the PDAL pipeline command 
->>>>>>> 59eb3268191871ee1495101d6f9e92d55ed1ef29
+
