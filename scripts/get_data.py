@@ -16,6 +16,7 @@ pipeline_path='iowa.json'
 def get_raster_terrain(bounds:str,region:str,access_data_path:str=access_data_path,
                         output_filename_laz:str=output_filename_laz,output_filename_tif:str=output_filename_tif,
                         pipeline_path:str=pipeline_path)->None:
+    """This function outputs the the raster file and dem file from a json script """                    
 
     with open(pipeline_path) as json_file:
         the_json=json.load(json_file)
