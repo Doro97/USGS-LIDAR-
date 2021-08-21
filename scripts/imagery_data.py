@@ -16,7 +16,7 @@ def generate_colour_data(width, height, imagiry_data, pixel2coord):
             )
 #Code that will extract the width, height and transformation information of the .tiff file and pass it to the function 
 # generate_colour_data which will populate the color data in a list in the following format: [longitude, latitude, Red, Green, Blue, Alpha]
-with rio.open('C:\Users\user.DESKTOP-OMQ89VA\Documents\USGS-LIDAR-\data\iowa.tif') as imagery_data:
+with rio.open(r'C:\Users\user.DESKTOP-OMQ89VA\Documents\USGS-LIDAR-\data\iowa.tif') as imagery_data:
     T0 = imagery_data.transform
     T1 = T0 * Affine.translation(0.5, 0.5)
     pixel2coord = lambda c, r: (c, r) * T1
