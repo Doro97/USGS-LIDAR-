@@ -26,6 +26,7 @@ Contents
    usage
 
 rst/get_elevation
+rst/get_raster_terrain
 
 Indices and tables
 ==================
