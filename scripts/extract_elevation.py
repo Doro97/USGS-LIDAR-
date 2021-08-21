@@ -5,6 +5,9 @@ import pandas as pd
 # script for returning elevation from lat, long, based on open elevation data
 # which in turn is based on SRTM
 def get_elevation(lat, long):
+    """This function returns the elevation of a given point froom the given 
+    latitude and longitude points based on open elevation data"""
+    
     query = ('https://api.open-elevation.com/api/v1/lookup'
              f'?locations={lat},{long}')
     r = requests.get(query).json()  # json object, various ways you can extract value
