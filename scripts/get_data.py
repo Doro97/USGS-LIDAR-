@@ -7,8 +7,8 @@ region="IA_FullState/"
 bounds=([-10425171.940, -10423171.940], [5164494.710, 5166494.710])
 access_data_path=data_path+region+"ept.json"
 
-output_filename_laz='laz/iowa.laz"
-output_filename_tif='tif/iowa.tif'
+output_filename_laz="iowa.laz"
+output_filename_tif="iowa.tif"
 
 pipeline_path='iowa.json'
 
