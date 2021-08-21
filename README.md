@@ -35,3 +35,15 @@ Classification [:]=0 and assigns the Classification for each point to 0.
 1. Save the PDAL pipeline in Pipeline to a file called iowa.json
 2. Invoke the PDAL pipeline command 
 
+# Visualization of the Terrain
+The elevation files have been graphically displayed as a 3D render plot.
+
+# Data Transformation
+The data transformation steps included the following:
+
+## Calculation of the Topographic wetness index (TWI) 
+TWI is a useful model to estimate where water will accumulate in an area with elevation differences
+
+## Standardized grid 
+ A python code that takes elevation points output from the USGS LIDAR tool and interpolates them to a grid.
+
