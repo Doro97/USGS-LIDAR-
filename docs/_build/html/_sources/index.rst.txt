@@ -6,6 +6,14 @@
 Welcome to 3dLidar's documentation!
 ===================================
 
+3d Lidar is a Python library for fetching, visualising and transforming publicly available satellite and LIDAR data.
+The code interfaces with USGS 3DEP and fetches data using their API. It pulls data from the `USGS database <https://s3-us-west-2.amazonaws.com/usgs-lidar-public/>`_ and offers a *simple* and
+*intuitive* API.
+
+.. note::
+
+   This project is under active development.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
